@@ -45,9 +45,9 @@ public class SignatureTests {
     public void testContractTransfer() throws TransactionException, NodeException {
         String refInfo = getRefInfo();
         String chainId = Constants.mainnetChainId;
-        String wifStr = "";
-        String callerAddr = "";
-        String callerPubKey = "";
+        String wifStr = "5KatTfFZseaDsDf1d3JHCdBcUDdJZCLS2RwbEgoix1zyUMuHqVr";
+        String callerAddr = "XWCNbEG9tTn9zKrRAwRZ1Q6RtJjkkiBZEPoWa";
+        String callerPubKey = "XWC8R3MLmhUuAwBy2fX4KX6ZACmGp6ZgurX2qSv1Pt88aQsmBhVLA";
         String contractId = "XWCCHcRE3jsyHGrtoE2ZJZtpHsEiYTQ7VrHkb";
         BigDecimal transferAmount = new BigDecimal("0.001");
         String transferMemo = "hi";
@@ -67,9 +67,9 @@ public class SignatureTests {
     public void testContractInvoke() throws TransactionException, NodeException {
         String refInfo = getRefInfo();
         String chainId = Constants.mainnetChainId;
-        String wifStr = "";
-        String callerAddr = "";
-        String callerPubKey = "";
+        String wifStr = "5KatTfFZseaDsDf1d3JHCdBcUDdJZCLS2RwbEgoix1zyUMuHqVr";
+        String callerAddr = "XWCNbEG9tTn9zKrRAwRZ1Q6RtJjkkiBZEPoWa";
+        String callerPubKey = "XWC8R3MLmhUuAwBy2fX4KX6ZACmGp6ZgurX2qSv1Pt88aQsmBhVLA";
         String contractId = "XWCCHcRE3jsyHGrtoE2ZJZtpHsEiYTQ7VrHkb";
         String contractApi = "balanceOf";
         String contractArg = "";
@@ -89,9 +89,9 @@ public class SignatureTests {
     public void testTransfer() throws TransactionException, NodeException {
         String refInfo = getRefInfo();
         String chainId = Constants.mainnetChainId;
-        String wifStr = "";
-        String fromAddr = "";
-        String toAddr = "";
+        String wifStr = "5KatTfFZseaDsDf1d3JHCdBcUDdJZCLS2RwbEgoix1zyUMuHqVr";
+        String fromAddr = "XWCNbEG9tTn9zKrRAwRZ1Q6RtJjkkiBZEPoWa";
+        String toAddr = "XWCNbEG9tTn9zKrRAwRZ1Q6RtJjkkiBZEPoWa";
         BigDecimal amount = new BigDecimal("0.001");
         BigDecimal fee = new BigDecimal("0.0011");
         String memo = "test";
