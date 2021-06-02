@@ -8,7 +8,7 @@ public class Constants {
 
     public static final int expireTimeout = 86000;
 
-    public static final String defaultWsRpcEndpoint = "ws://8.210.70.217:10043";
+    public static final String defaultWsRpcEndpoint = "ws://69.64.39.121:23454";
 
     public static final String XWC_ASSET_ID = "1.3.0";
 }
